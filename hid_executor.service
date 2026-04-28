@@ -1,0 +1,12 @@
+[Unit]
+Description=USB bridge HID executor
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /root/usb_bridge/bin/hid_executor.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
