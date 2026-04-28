@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.log
+
+root/usb_bridge/logs/
+root/usb_bridge/api_raw/
+root/usb_bridge/report_print_queue/
+root/usb_bridge/report_pdf_queue/
+root/usb_bridge/report_wait_queue/
+root/usb_bridge/form_queue/
+root/usb_bridge/queue/
+root/usb_bridge/state/
+
+uploads/
+app.log
