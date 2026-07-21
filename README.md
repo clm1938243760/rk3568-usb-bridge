@@ -1,5 +1,7 @@
 # RK3568 USB Bridge 扫码录入与报告上传系统技术报告
 
+> 历史前身仓库：本文档和代码用于记录早期方案。当前 RK3568 正式版本、安装脚本和 Release 位于 [Debian-usb-bridge](https://github.com/clm1938243760/Debian-usb-bridge)。
+
 ## 1. 项目概述
 
 本系统基于 RK3568 嵌入式 Linux 开发板，实现一套面向 Windows 主机端检查/报告软件的自动化桥接方案。系统通过 USB Gadget 同时模拟 HID 键盘、HID 鼠标和 USB 打印机，实现以下两个核心业务流程：
